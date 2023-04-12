@@ -1,0 +1,569 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@600&display=swap');
+
+body{
+    box-sizing: border-box;
+    width: 375px;
+    margin: auto;
+    overflow-x: hidden;
+}
+
+header{
+    position: relative;
+}
+
+.logo_inheader{
+    width: 81px;
+    margin-top: 32px;
+    margin-left: 16px;
+}
+
+.requestbutton_inheader{
+    position: absolute;
+    height: 48px;
+    width: 182px;
+    border-radius: 6px; 
+    border-style: solid;
+    margin-top: 24px;
+    margin-left: 80px;
+    background-color: white;
+    border-color: Dark Blue;
+    color: #172339;
+    font-family: 'Epilogue';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.14000000059604645px;
+    text-align: center;
+
+
+}
+
+.curve{
+    width: 151px;
+    height: 19px;
+    margin-top: 56px;
+    margin-left: 170px;
+    margin-bottom: 9px;
+}
+
+.part1h1{
+    color: #172339;
+    margin-left: 16px;
+    height: 89px;
+    width: 343px;
+    border-radius: nullpx;
+    font-family: 'Epilogue';
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: -0.5277777910232544px;
+    text-align: left;
+
+
+}
+
+b{
+    font-family: 'Epilogue';
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: -0.5277777910232544px;
+    text-align: left;
+
+}
+
+.part1p{
+    
+    color: Grey;
+    margin-left: 16px;
+    margin-top: 32px;
+    width: 343px;
+    height: 84px;
+    font-family: 'Epilogue';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.08888889104127884px;
+    text-align: left;   
+
+}
+
+.requestbutton_inmain{
+    height: 61px;
+    width: 256px;
+    margin-top: 32px;
+    margin-left: 16px;
+    background-color: #172339;
+    border-radius: 6px;
+    color: white;
+    font-family: 'Epilogue';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.18000000715255737px;
+    
+
+}
+
+.part1imgland{
+    margin-left: 16px;
+    margin-top: 55.68px;
+    width: 343px;
+}
+
+.part1imgport{
+    display: none;
+}
+
+.mainstatistic{
+    margin-top: 56px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.hthree{
+    font-family: 'Epilogue';
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0px;
+    text-align: center; 
+    color: #172339;
+    margin-bottom: 1px;
+
+}
+
+.pthree{
+    color: Grey;
+    font-family: 'Epilogue';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 2.5px;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.blur{
+    position: absolute;
+    width: 400px;
+    height: 270px;
+}
+
+.man{
+    margin-top: 32px;
+    margin-left: 77px;
+    position: absolute;
+    z-index: 1;
+    
+}
+
+.bigman{
+    display: none;
+}
+
+.mainparttwo{
+    position: relative;
+    margin-top: 202px;
+    width: 375px;
+    height: 748px;
+    border-radius: 15px;
+    background-color: #172339;
+}
+
+.whitecurve{
+    margin-top: 261px;
+    width: 49px;
+    margin-left: 163px;
+}
+
+.mainparttwoh3{
+    margin-top: 37px;
+    color: white;
+    font-family: 'Epilogue';
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: -0.4166666567325592px;
+    text-align: center;
+
+}
+
+strong{
+    font-family: 'Epilogue';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.4166666567325592px;
+    text-align: center;
+}
+
+.mainparttwop{
+    margin-top: 40px;
+    margin-left: 16px;
+    color: #F3EDE7;
+    width: 343px;
+    font-family: 'Epilogue';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.09000000357627869px;
+    text-align: center;
+
+}
+
+.mainparttwoh4{
+    margin-top: 40px;
+    color: #FAF8F6;
+    font-family: 'Epilogue';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.18000000715255737px;
+    text-align: center;
+
+}
+
+.mainparttwoh6{
+    color: #F3EDE7;
+    font-family: 'Epilogue';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 2.5px;
+    text-align: center;
+
+}
+
+footer{
+    width: 375px;
+    position: relative;
+    background-color: #F3EDE7;
+}
+
+.logo_infooter{
+    width: 81px;
+    height: 32px;
+    margin-top: 56px;
+    margin-left: 147px;
+}
+
+.copyright{
+    color: #49566D;
+    margin-top: 32px;
+    font-family: 'Epilogue';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.0833333358168602px;
+    text-align: center;
+
+}
+
+.socialmedia{
+    margin-top: 32px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 28px;
+
+}
+
+@media screen and (min-width:768px) {
+
+    body{
+        box-sizing: border-box;
+        width: 768px;
+        margin: auto;
+        overflow-x: hidden;
+    }
+    
+    header{
+        position: relative;
+    }
+    
+    .logo_inheader{
+        width: 81px;
+        margin-top: 52px;
+        margin-left: 39px;
+    }
+    
+    .requestbutton_inheader{
+        position: absolute;
+        height: 56px;
+        width: 219px;
+        border-radius: 6px; 
+        border-style: solid;
+        margin-top: 40px;
+        margin-left: 389px;
+        background-color: white;
+        border-color: Dark Blue;
+        color: #172339;
+        font-family: 'Epilogue';
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: -0.1599999964237213px;
+    
+    }
+
+    main{
+        position: relative;
+    }
+    
+    .curve{
+        width: 231px;
+        height: 29px;
+        margin-top: 122px;
+        margin-left: 262px;
+        margin-bottom: 0;
+    }
+    
+    .part1h1{
+        color: #172339;
+        margin-top: 16px;
+        margin-left: 39px;
+        width: 500px;
+        height: 129px;
+        font-family: 'Epilogue';
+        font-size: 56px;
+        font-weight: 400;
+        line-height: 64px;
+        letter-spacing: -0.7777777910232544px;
+        text-align: left;
+
+    
+    
+    }
+    
+    b{
+        font-family: 'Epilogue';
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -0.7777777910232544px;
+    text-align: left;
+    }
+    
+    .part1p{
+        
+        color: Grey;
+        margin-left: 39px;
+        margin-top: 40px;
+        width: 350px;
+        height: 84px;
+        font-family: 'Epilogue';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0.08888889104127884px;
+        text-align: left;
+
+    
+    }
+    
+    .requestbutton_inmain{
+        width: 256px;
+        height: 61px;
+        margin-top: 40px;
+        margin-left: 39px;
+        background-color: #172339;
+        border-radius: 6px;
+        color: white;
+        font-family: 'Epilogue';
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: -0.18000000715255737px;
+        
+    
+    }
+    
+    .part1imgland{
+        display: none;
+    }
+    
+    .part1imgport{
+        border-radius: 15px;
+        background-image: url(./Material/image-hero-portrait@2x.png);
+        background-size: contain;
+        display: flex;
+        width: 281px;
+        height: 482px;
+        margin-left: 447px;
+        margin-top: -450px;
+        
+    }
+    
+    .mainstatistic{
+        margin-top: 88px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 120px;
+        
+    }
+    
+    
+    .hthree{
+        font-family: 'Epilogue';
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 56px;
+        letter-spacing: 0px;
+        text-align: center; 
+        color: #172339;
+        margin-bottom: 0;
+    
+    }
+    
+    .pthree{
+        color: Grey;
+        font-family: 'Epilogue';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 2.5px;
+        text-align: center;
+        margin-bottom: 92px;
+    
+    }
+    
+
+    .blur{
+        position: absolute;
+        width: 400px;
+        height: 270px;
+        margin-left: 135px;
+    }
+    .man{
+        display: none;
+        
+        
+    }
+    
+    .bigman{
+        width: 252px;
+        height: 402px;
+        display: flex;
+        margin-top: 32px;
+        margin-left: 244px;
+        position: absolute;
+        z-index: 1;
+    }
+    
+    .mainparttwo{
+        position: relative;
+        margin-top: 202px;
+        margin-left: 39px;
+        width: 689px;
+        height: 684px;
+        border-radius: 15px;
+        background-color: #172339;
+    }
+    
+    .whitecurve{
+        margin-top: 261px;
+        width: 49px;
+        margin-left: 304px;
+    }
+    
+    .mainparttwoh3{
+        margin-top: 37px;
+        color: white;
+        font-family: 'Epilogue';
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 48px;
+        letter-spacing: -0.4166666567325592px;
+        text-align: center;
+    
+    }
+    
+    strong{
+        font-family: 'Epilogue';
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: -0.4166666567325592px;
+        text-align: center;
+    }
+    
+    .mainparttwop{
+        margin-top: 40px;
+        margin-left: 58px;
+        color: #F3EDE7;
+        width: 573px;
+        font-family: 'Epilogue';
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0.09000000357627869px;
+        text-align: center;
+    
+    }
+    
+    .mainparttwoh4{
+        margin-top: 40px;
+        color: #FAF8F6;
+        font-family: 'Epilogue';
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: -0.18000000715255737px;
+        text-align: center;
+    
+    }
+    
+    .mainparttwoh6{
+        color: #F3EDE7;
+        font-family: 'Epilogue';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 2.5px;
+        text-align: center;
+    
+    }
+    
+    footer{
+        width: 768px;
+        position: relative;
+        background-color: #F3EDE7;
+    }
+    
+    .logo_infooter{
+        width: 81px;
+        height: 32px;
+        margin-top: 72px;
+        margin-left: 39px;
+    }
+    
+    .copyright{
+        margin-top: -35px;
+        color: #49566D;
+        font-family: 'Epilogue';
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0.0833333358168602px;
+        text-align: center;
+    
+    }
+    
+    .socialmedia{
+        margin-top: -32px;
+        margin-left: 530px;
+        padding-bottom: 80px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 28px;
+    
+    }
+    
+}
